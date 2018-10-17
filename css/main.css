@@ -3,20 +3,32 @@ body {
 }
 
 .nav {
+	width: 100%;
 	position: fixed;
 	top: 0;
-	width: 100%;
-	background-color: grey;
 	margin-top: 0px;
+	background-color: rgba(98, 83, 83, 0.7);
 	z-index: 1;
 }
 
+#heading {
+	float: left;	
+}
+
+.headimg {
+	position: absolute;
+	top: -30px;
+	left: 120px;
+	height: 150px;
+}
+
 .nav-l {
+	clear: both;
 	list-style-type: none;
 	margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: green;
+    background-color: rgba(33,182,33,0.7);
 }
 
 .nav-l-el a{
@@ -34,4 +46,9 @@ body {
 
 #nav-l-el-lc a{
 	float: right;
+}
+
+#cont {
+	position: absolute;
+	top: 10vw;
 }
