@@ -1,0 +1,30 @@
+body {
+	background-color: pink;
+}
+
+.inp-field {
+	border-radius: 25px;
+	width: 15vw;
+	height: 2vw;
+}
+
+.inp-icon {
+	position: relative;
+	right: -2vw;
+}
+
+::-webkit-input-placeholder {
+   text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   text-align: center;  
+}
+
+:-ms-input-placeholder {  
+   text-align: center; 
+}
