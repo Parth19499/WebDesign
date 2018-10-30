@@ -2,20 +2,20 @@ body {
 	background-color: white;
 }
 
-#btn-signup {
+#btn-login {
 	position: absolute;
 	top: 0;
 	right: 0.5vw;
 }
 
-#btn-signup p a {
+#btn-login p a {
 	font-weight: bold;
 	text-decoration: none;
 	color: black;
 	font-size: 1.2vw;
 }
 
-#btn-signup p a:hover {
+#btn-login p a:hover {
 	text-decoration: underline;
 }
 
@@ -32,17 +32,6 @@ body {
 	padding: 5vw;
 	border-radius: 25px;
 	background-color: rgba(0,0,0,0.8);
-}
-
-.inp-field {
-	border-radius: 25px;
-	width: 15vw;
-	height: 2vw;
-}
-
-.inp-icon {
-	position: relative;
-	right: -2vw;
 }
 
 .social-icon {
@@ -73,54 +62,18 @@ body {
 	background-color: #3e8e41;
 }
 
-.btn-forgot {
-	position: relative;
-	right: 2vw;
+.btn-email {
 	border: 2px solid grey;
 	border-radius: 25px;
 	background-color: white;
 	font-weight: bold;
 	color: grey;
-	width: 7vw;
+	width: 15vw;
 	height: 3vw;
 }
 
-.btn-login {
-	position: relative;
-	left: 2vw;
-	border: 2px solid grey;
-	border-radius: 25px;
-	background-color: white;
-	font-weight: bold;
-	color: grey;
-	width: 7vw;
-	height: 3vw;
-}
-
-.btn-forgot:hover {
+.btn-email:hover {
 	color: white;
 	font-weight: bold;
 	background-color: #3e8e41;
-}
-
-.btn-login:hover {
-	color: white;
-	font-weight: bold;
-	background-color: #3e8e41;
-}
-
-::-webkit-input-placeholder {
-   text-align: center;
-}
-
-:-moz-placeholder { /* Firefox 18- */
-   text-align: center;  
-}
-
-::-moz-placeholder {  /* Firefox 19+ */
-   text-align: center;  
-}
-
-:-ms-input-placeholder {  
-   text-align: center; 
 }
