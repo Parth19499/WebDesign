@@ -1,66 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>KiMusic-Listen any song any time</title>
-	<link rel="icon" href="images/logo.ico">
+	<title>Saavn - Listen to Old & New Songs Online. Anywhere, Anytime</title>
+	<link rel="icon" href="images/saavnlogo3.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<script src="js/main.js"></script> 
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
 	<div class="nav">
 		<div id="heading">
-			<h1 onclick="goHome()">KiMusic</h1>
-			<img class="headimg" src="images/logo.png" alt="KiMusic-Listen any song any time" onclick="goHome()">
+			<img onclick="goHome()" class="headimg" src="images/saavnlogo2.jpg" alt="KiMusic-Listen any song any time">
 		</div>
 		<ul class="nav-l">
-			<li class="nav-l-el"><a href="#">Browse</a></li>
+			<li class="nav-l-el"><a href="#">Song Map</a></li>
+			<li class="nav-l-el-dropdown">
+				<a href="#">Browse
+					<i class="material-icons down_arrow_icon">keyboard_arrow_down</i>
+					<div id="dropdown-content-Browse">
+						<span class="dropdown-link"><a href="#">Featured Playlists</a></span><br/>
+						<span class="dropdown-link"><a href="#">New Releases</a></span><br/>
+						<span class="dropdown-link"><a href="#">Top Artists</a></span><br/>
+					</div>
+				</a>
+			</li>
 			<li class="nav-l-el"><a href="#">My Music</a></li>
 			<li class="nav-l-el"><a href="#">Radio</a></li>
-			<li class="nav-l-el"><a href="#">More</a></li>
+			<li class="nav-l-el-dropdown">
+				<a href="#">More
+					<i class="material-icons down_arrow_icon">keyboard_arrow_down</i>
+					<div id="dropdown-content-More">
+							<span class="dropdown-link"><a href="#">Bookmark Saavn</a></span><br/>	
+					</div>
+				</a>
+			</li>
 			<li  id="nav-l-el-lc" class="nav-l-el"><a href="login.html">Login</a></li>
 		</ul>
 	</div>
-	<div id="cont">
-	<p>Start</p>
-	<p>hey there</p>
-	<p>hey there</p>
-	<p>hey there</p>
-	<p>hey there</p>
-	<p>hey there</p>
-	<p>hey there</p>
-	<p>hey there</p>
-	<p>hey there</p>
-	<p>hey there</p>
-	<p>hey there</p>
-	<p>hey there</p>
-	<p>hey there</p>
-	<p>hey there</p>
-	<p>hey there</p>
-	<p>hey there</p>
-	<p>hey there</p>
-	<p>hey there</p>
-	<p>hey there</p>
-	<p>hey there</p>
-	<p>hey there</p>
-	<p>hey there</p>
-	<p>hey there</p>
-	<p>hey there</p>
-	<p>hey there</p>
-	<p>hey there</p>
-	<p>hey there</p>
-	<p>hey there</p>
-	<p>hey there</p>
-	<p>hey there</p>
-	<p>hey there</p>
-	<p>hey there</p>
-	<p>hey there</p>
-	<p>hey there</p>
-	<p>hey there</p>
-	<p>hey there</p>
-	<p>hey there</p>
-	<p>hey there</p>
-	<p>hey there</p>
-</div>
+	<div class="nav">
+		<input id="Search-Bar" type="text" placeholder="Search for Dilbar, Taylor Swift, or Bazaar"/>
+		<input id="Surprise-Me" type="Submit" value="Surprise Me"/>
+
+	</div>
 </body>
 </html>
