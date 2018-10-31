@@ -367,6 +367,47 @@ body {
 	color:black;
 }
 
+.ad-title {
+	display:block;
+	text-decoration: none;
+	font-size: 20px;
+	margin-top: 30px;
+	color:grey;
+	
+}
+
+.ad-text {
+	color:white;
+	padding-top:15px;
+}
+
+.ad-Stores {
+	font-size:18px;
+	
+}
+
+.ad-Intro {
+	font-size:13px;
+}
+
+.get-app-link {
+	width:200px;
+	height:65px;
+	border:none;
+	border-radius:5px;
+	background-color: #0AB85E;
+	display:block;
+	margin:10px;
+}
+
+.get-app-link i {
+	margin:15px;
+	color: white;
+	float:left;
+}
+
+
+
 .weekly-btn input{
 	color: white;
 	background-color: #0AB85E;
@@ -424,6 +465,75 @@ html, body {
     overflow-x: hidden;
 }
 
+.Like-Button {
+	padding-top:25px;
+	padding-bottom:25px;
+	margin-left:30px;
+	margin-right:30px;
+	width:95%;
+	border-top:1px solid lightgrey;
+	border-bottom:1px solid lightgrey;
+	color:grey;
+	font-size:14px;
+	float:left;
+}
+
+.FooterInfo {
+	margin-right:30px;
+	margin-left:30px;
+	width:95%;
+	margin-top:110px;
+}
+
+.Footer-col {
+	float:left;
+	width:14%;
+}
+
+.Footer-title{
+	font-size:15px;
+	color:grey;
+	margin-bottom:20px;
+}
+
+.Footer-col-items {
+	text-decoration: none;
+	
+	color:grey;
+	font-size:13px;
+}
+
+.copyright-item {
+	color:grey;
+	font-size:12px;
+	margin-top:20px;
+}
+
+.Footer-col-items:hover {
+	color:black;
+}
+
+.Footer-last-col {
+	text-align: end;
+}
+
+.Like-Button button{
+	display:block;
+	padding:3px 10px 3px 10px;
+	float:left;
+	background-color:#4267B2;
+	color:white;
+	border-radius:5px;
+	font-size:12px;
+	font-weight: bold;
+	border:none;
+	margin-right:15px;
+
+}
+
+.Like-Button i {
+	margin-right:5px;
+}
 /* .col1 ol {
 list-style-type: none;
 margin-left: 0;

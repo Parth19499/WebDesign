@@ -44,7 +44,7 @@ function fillWeeklyTop15() {
 	{
 		var node = document.createElement("LI");
 		var node2 = document.createElement("A");
-		node2.setAttribute('href','#');
+		node2.setAttribute('href','./queue.html');
 		var node3 = document.createElement("DIV");
 		var node4 = document.createElement("DIV");
 		var class1 = document.createAttribute("class");       // Create a "class" attribute
