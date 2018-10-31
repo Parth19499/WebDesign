@@ -311,10 +311,14 @@ body {
 .img-size img{
 	border: 1px solid #3E3E3E;
 	border-radius: 250px;
+	height:65px;
+	width:65px;
 }
 
 .text-size {
 	color: white;
+	font-size:13px;
+	text-align:center;
 }
 
 /*.one {
@@ -329,6 +333,7 @@ body {
 
 .div-singers li {
 	margin-right: 20px;
+	margin-left: 20px;
 }
 
 .three-cols {
