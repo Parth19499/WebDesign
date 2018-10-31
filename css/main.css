@@ -7,11 +7,11 @@ body {
 	position: fixed;
 	top: 0;
 	margin-top: 0px;
-	background-color: #F6F6F6;
+	background-color:rgba(246,246,246,.8);
 	z-index: 2;
 	display:inline-block;
 	border:none;
-	opacity:0.8;	
+		
 }
 
 .nav2{
@@ -19,11 +19,11 @@ body {
 	position: fixed;
 	top: 61;
 	margin-top: 61px;
-	background-color: #F6F6F6;
-	z-index: 2;
+	background-color:rgba(246,246,246,.8);
+	z-index: 1;
 	display:inline-block;
 	border:none;
-	opacity:0.8;	
+		
 
 		
 }
@@ -203,6 +203,7 @@ body {
 	border-radius:5%;
 	padding-left:18px;
 	padding-top:13px;
+	opacity:1 !important;
 	
 	
 }
@@ -220,7 +221,7 @@ body {
 	border-radius:5%;
 	padding-left:18px;
 	padding-top:13px;
-	
+	opacity:1 !important;	
 }
 
 .dropdown-list-separator{
@@ -272,4 +273,98 @@ body {
 #cont {
 	position: absolute;
 	top: 10vw;
+}
+
+.btn-normal {
+	display: inline-block;
+	position: relative;
+	bottom: 25%;
+	right: 0;
+}
+
+.btn-normal input{
+	border-radius: 25px;
+	border: 2px solid grey;
+	background-color: #3E3E3E;
+	color: grey;
+	width: 150px;
+}
+
+.btn-normal input:hover {
+	border-color: white;
+	color: white;
+	background-color: #3E3E3E;
+}
+
+.div-singers {
+	display: inline-block;
+	position: relative;
+	/*background-color: yellow;*/
+	width: 850px;
+	top: 10px;
+}
+
+.div-singers ul > li{
+	display: inline-block;
+}
+
+.img-size img{
+	border: 1px solid #3E3E3E;
+	border-radius: 250px;
+}
+
+.text-size {
+	color: white;
+}
+
+/*.one {
+	display: inline-block;
+	margin-right: 25px;
+}
+
+.two {
+	display: inline-block;
+	margin-right: 25px;
+}*/
+
+.div-singers li {
+	margin-right: 20px;
+}
+
+.three-cols {
+	display: inline-block;
+	width: 95%;
+	margin-right: 30px;
+	margin-left: 30px;
+	background-color: pink;
+}
+
+.col1 {
+	display: inline-block;
+	background-color: yellow;
+	width: 25%;
+	height: 800px;
+}
+
+.weekly-btn a {
+	text-decoration: none;
+	font-size: 24px;
+	margin-right: 50px;
+}
+
+.weekly-btn input{
+	color: white;
+	background-color: green;
+	border-radius: 25px;
+}
+
+.weekly-btn input:hover {
+	background-color: rgba(0,145,0,0.7);
+}
+
+.col2 {
+	display: inline-block;
+	background-color: red;
+	width: 45%;
+	height: 800px;
 }
