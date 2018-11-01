@@ -177,6 +177,12 @@ body {
 	text-decoration: underline;
 	/* background-color: #000; */
 }
+
+.nav-l-el-dropdown > a:hover {
+	text-decoration: none;
+	
+	/* background-color: #000; */
+}
 .nav-l-el-dropdown > a{
 	float: left;
 	margin:1%;
@@ -439,6 +445,7 @@ body {
 
 .song-desc {
 	color:lightgrey;
+	text-decoration:none !important;
 }
 
 .col2 {
@@ -598,7 +605,14 @@ counter-reset: customlistcounter;
 
 .song-title {
 	color:black;
+	text-decoration: none !important;
 }
+
+.song-title:hover {
+	text-decoration: none !important;
+}
+
+
 
 .albumtitle {
 	color:black;
